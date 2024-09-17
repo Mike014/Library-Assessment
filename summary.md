@@ -102,6 +102,16 @@ python manage.py test
 - **POST** `/books/:id/favorite` - Add a book to the user's favorites.
 - **GET** `/books/recommendations` - Retrieve a list of recommended books.
 
+# Loading Authors Data
+- To load authors data, follow these steps:
+1. **Download the dataset**: [Large Books Metadata Dataset](https://www.kaggle.com/datasets/opalskies/large-books-metadata-dataset-50-mill-entries?resource=download)
+2. Extract the dataset and place the authors.json file in the root directory of the project (libraryassessment).
+3. Run the script to load authors data:
+
+```bash
+python load_authors.py
+```
+
 ## Conclusion
 This Django application provides a comprehensive system for managing a library, with features for authentication, search, and recommendation. Follow the steps above to configure and run the application. If you have any questions or need further clarification, refer to the official Django documentation or contact the development team.
 

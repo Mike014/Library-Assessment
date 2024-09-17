@@ -170,3 +170,4 @@ cython_debug/
 *.seed.*
 *.state.*
 *.state.*
+authors.json
