@@ -16,6 +16,6 @@ class Command(BaseCommand):
             for item in data['root']:
                 Author.objects.create(
                     name=item['name'],
-                    # Aggiungi altri campi necessari
+                    
                 )
         self.stdout.write(self.style.SUCCESS('Authors loaded successfully'))
