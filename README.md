@@ -74,3 +74,5 @@ python manage.py runserver
 ```bash
 python manage.py test
 ```
+
+FOR MORE INFORMATION GO TO [summary.md](https://github.com/Mike014/Library-Assessment/blob/main/summary.md)
